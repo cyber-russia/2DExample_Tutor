@@ -8,8 +8,7 @@ namespace SupremumStudio
 	public class Teleporter : MonoBehaviour
 	{
 
-		public Transform TeleportZone
-			;
+		public Transform TeleportZone;
 		private void OnTriggerEnter2D(Collider2D other)
 		{
 			if (other.tag == "Player")

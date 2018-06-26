@@ -8,23 +8,30 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="NextScene.cs" t="Include" />
           <e p="Slider.cs" t="Include" />
+          <e p="Teleporter.cs" t="Include" />
         </e>
         <e p="Sprite" t="Include">
-          <e p="Enemies" t="Include">
-            <e p="enemies_spritesheet.txt" t="Include" />
+          <e p="Base pack" t="Include">
+            <e p="Player" t="Include">
+              <e p="p1_spritesheet.txt" t="Include" />
+              <e p="p2_spritesheet.txt" t="Include" />
+              <e p="p3_spritesheet.txt" t="Include" />
+            </e>
           </e>
-          <e p="HUD" t="Include">
-            <e p="hud_spritesheet.xml" t="Include" />
+          <e p="Extra animations and enemies" t="Include">
+            <e p="Spritesheets" t="Include">
+              <e p="alienBeige.xml" t="Include" />
+              <e p="alienBlue.xml" t="Include" />
+              <e p="alienGreen.xml" t="Include" />
+              <e p="alienPink.xml" t="Include" />
+              <e p="aliens.xml" t="Include" />
+              <e p="alienYellow.xml" t="Include" />
+              <e p="enemies.xml" t="Include" />
+            </e>
           </e>
-          <e p="Player" t="Include">
-            <e p="p1_spritesheet.txt" t="Include" />
-            <e p="p2_spritesheet.txt" t="Include" />
-            <e p="p3_spritesheet.txt" t="Include" />
-          </e>
-          <e p="Preview" t="Include">
-            <e p="license.txt" t="Include" />
-          </e>
+          <e p="license.txt" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
@@ -34,7 +41,6 @@
               <e p="Platformer2DUserControl.cs" t="Include" />
               <e p="PlatformerCharacter2D.cs" t="Include" />
               <e p="Restarter.cs" t="Include" />
-              <e p="Teleporter.cs" t="Include" />
             </e>
           </e>
           <e p="CrossPlatformInput" t="Include">
