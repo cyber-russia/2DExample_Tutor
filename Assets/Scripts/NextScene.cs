@@ -15,8 +15,10 @@ namespace SupremumStudio
 			if (other.tag == "Player")
 			{
 				UnityEngine.SceneManagement.SceneManager.LoadScene(NextLoadScene);		
+			
 			}
 		}
 		
 	}
 }
+

@@ -7,7 +7,6 @@ namespace SupremumStudio
 	
 	public class Teleporter : MonoBehaviour
 	{
-
 		public Transform TeleportZone;
 		private void OnTriggerEnter2D(Collider2D other)
 		{
@@ -15,17 +14,6 @@ namespace SupremumStudio
 			{
 				other.transform.position = TeleportZone.transform.position;
 			}
-		}
-
-
-		private void OnDrawGizmos()
-		{
-			if (gameObject.tag == "Teleport")
-			{
-				Gizmos.DrawLine(transform.position, TeleportZone.position);
-				Gizmos.DrawWireSphere(TeleportZone.position,1);
-			}
-			
 		}
 	}
 }
